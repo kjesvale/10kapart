@@ -24,7 +24,6 @@ const getTemplateParameters = () => {
     });
 
     const formattedDuration = formatDuration(duration, {
-        format: ['days', 'hours', 'minutes', 'seconds'],
         locale: nb,
         delimiter: ', ',
     });
