@@ -41,7 +41,7 @@ server.get('/', (_, res) => {
     res.render('index.mustache', getTemplateParameters());
 });
 
-server.use('/public', express.static('server/public'));
+server.use('/public', express.static('./public'));
 
 server.listen(port, () => {
     console.log(`Server kjører på http://localhost:${port}`);
