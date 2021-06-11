@@ -1,10 +1,10 @@
 {
-    "name": "10kapart",
+    "name": "10kapart-server",
     "version": "1.0.0",
-    "main": "server/server.js",
+    "main": "server.js",
     "scripts": {
-        "start": "node server/server.js",
-        "watch": "nodemon server/server.js"
+        "start": "node server.js",
+        "watch": "nodemon --watch . -e js,mustache,css,html"
     },
     "repository": {
         "type": "git",
