@@ -188,58 +188,13 @@
             }
 
             .text h1 {
-                height: 100%;
-                padding: 0;
                 text-align: center;
-            }
-
-            .text::before {
-                content: '';
-                width: 50%;
-                height: 100%;
-                float: left;
-                shape-outside: polygon(
-                    0 0,
-                    98% 0,
-                    50% 6%,
-                    23.4% 17.3%,
-                    6% 32.6%,
-                    0 50%,
-                    6% 65.6%,
-                    23.4% 82.7%,
-                    50% 94%,
-                    98% 100%,
-                    0 100%
-                );
-                shape-margin: 7%;
-            }
-
-            .text h1::before {
-                content: '';
-                width: 50%;
-                height: 100%;
-                float: right;
-                shape-outside: polygon(
-                    2% 0%,
-                    100% 0%,
-                    100% 100%,
-                    2% 100%,
-                    50% 94%,
-                    76.6% 82.7%,
-                    94% 65.6%,
-                    100% 50%,
-                    94% 32.6%,
-                    76.6% 17.3%,
-                    50% 6%
-                );
-                shape-margin: 7%;
+                padding: 30% 0 0;
             }
 
             .quote-wrapper .text p {
-                width: 100%;
-                position: absolute;
-                bottom: 25px;
                 text-align: center;
+                padding: 0 25%;
             }
         </style>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -259,7 +214,7 @@
         <main>
             <article class="quote-wrapper">
                 <section class="text">
-                    <h1>Hvor lenge er det til OL 2020 i Tokyo?</h1>
+                    <h1>Hvor lenge<br>er det til OL<br> 2020 i Tokyo?</h1>
 
                     <p class="nedtelling">
                         <time id="time-until-opening-seremony" datetime="{{ durationISO }}">{{
