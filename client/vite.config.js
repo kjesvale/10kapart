@@ -1,4 +1,7 @@
 export default {
+    server: {
+        port: 3001
+    }
     //server: {
     //    proxy: {
     //        // string shorthand
