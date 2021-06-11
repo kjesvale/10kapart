@@ -1,0 +1,8 @@
+main {
+    background-image: url('../img/tokyo-2020.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+}
